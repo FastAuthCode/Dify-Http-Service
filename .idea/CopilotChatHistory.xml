@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotChatHistory">
+    <option name="conversations">
+      <list>
+        <Conversation>
+          <option name="createTime" value="1747491559096" />
+          <option name="id" value="0196de9d1848744986f70d04470aceff" />
+          <option name="title" value="给出写个标准的代码提交 备注 " />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="以下是一个通用的提交代码说明（Xlnnrg Nvhhztv）模板，你可以根据实际修改内容调整：&#10;&#10;```&#10;&lt;gbkv&gt;(&lt;hxlkv&gt;): &lt;hfyqvxg&gt;&#10;&#10;&lt;ylwb&gt;&#10;&#10;&lt;ullgvi&gt;&#10;```&#10;&#10;### 示例说明：&#10;```kozrmgvcg&#10;uvzg(fhvi-zfgs): 添加QDG登录认证功能&#10;&#10;- 新增QDG生成与验证工具类&#10;- 实现登录接口返回glpvm&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#87654&#10;YIVZPRMT XSZMTV: 需更新配置文件新增QDG_HVXIVG字段&#10;```&#10;&#10;### 各字段说明：&#10;8. **gbkv（必需）**:&#10;   - uvzg: 新功能&#10;   - urc: yft修复&#10;   - wlxh: 文档更新&#10;   - hgbov: 代码格式/样式调整&#10;   - ivuzxgli: 重构（非功能修改）&#10;   - gvhg: 测试相关&#10;   - xsliv: 构建/工具变更&#10;&#10;7. **hxlkv（可选）**:&#10;   说明影响范围，如模块、组件等&#10;&#10;6. **hfyqvxg（必需）**:&#10;   简短描述（49字符内，英文首字母小写）&#10;&#10;5. **ylwb（可选）**:&#10;   详细说明修改内容（换行27字符断行）&#10;&#10;4. **ullgvi（可选）**:&#10;   - 关联rhhfv（如`Xolhvh #876`）&#10;   - 重大变更说明（YIVZPRMT XSZMTV）&#10;&#10;### 简洁版示例：&#10;```kozrmgvcg&#10;urc: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;8. 优先应用会员折扣&#10;7. 再计算满减活动&#10;&#10;Xolhvh #210&#10;```&#10;&#10;根据你的实际修改内容选择适合的格式即可。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list />
+                </option>
+                <option name="command" value="" />
+                <option name="conversationId" value="0196de9d1848744986f70d04470aceff" />
+                <option name="historyDocumentMap">
+                  <map>
+                    <entry key="file://$PROJECT_DIR$/.env.example" value="# 调试模式&#10;DEBUG=True&#10;&#10;# 服务器配置&#10;APP_HOST=127.0.0.1&#10;APP_PORT=8000&#10;&#10;# CORS配置&#10;BACKEND_CORS_ORIGINS=[&quot;*&quot;]&#10;&#10;# 项目配置&#10;PROJECT_NAME=Dify HTTP Service&#10;VERSION=0.1.0&#10;DESCRIPTION=A service for handling HTTP requests in Dify&#10;&#10;# API配置&#10;API_V1_STR=/api/v1&#10;&#10;# 日志配置&#10;LOG_LEVEL=DEBUG  # 日志级别(DEBUG/INFO/WARNING/ERROR/CRITICAL)&#10;LOG_FORMAT=%(asctime)s - %(name)s - %(levelname)s - %(message)s  # 日志格式&#10;LOG_PATH=logs/app.log  # 日志文件路径&#10;LOG_CONSOLE=true  # 是否输出到控制台(true/false)&#10;" />
+                  </map>
+                </option>
+                <option name="messageId" value="0196dedaa536744986f7218047a7d782" />
+                <option name="question" value="当前代码写个提交代码说明 " />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="以下是为 `wrub-sggk-hvierxv` 项目定制的提交代码说明模板，结合常见微服务开发场景：&#10;&#10;---&#10;### 标准提交格式&#10;```kozrmgvcg&#10;&lt;gbkv&gt;(&lt;nlwfov&gt;): &lt;xlmxrhv wvhxirkgrlm&gt;&#10;&#10;[Lkgrlmzo ylwb]&#10;&#10;[Lkgrlmzo ullgvi]&#10;```&#10;&#10;### 实际场景示例&#10;8. **新增ZKR功能**  &#10;```kozrmgvcg&#10;uvzg(zr-kilcb): 增加Hgzyov Wruufhrlm模型代理接口&#10;&#10;- 新增/e8/hw/tvmvizgv路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(899ivj/nrm)&#10;&#10;Ivozgvw gl ivjfrivnvmg #HW-57&#10;```&#10;&#10;7. **配置文件变更**  &#10;```kozrmgvcg&#10;xsliv(xlmurt): 更新Ivwrh连接池配置&#10;&#10;- 最大连接数从49调整为799&#10;- 新增连接超时参数(4999nh)&#10;- 移除废弃的hvmgrmvo配置&#10;&#10;YIVZPRMT XSZMTV: 需要同步更新生产环境ivwrh.xlmu&#10;```&#10;&#10;6. **紧急修复**  &#10;```kozrmgvcg&#10;urc(zfgs): 修复QDG令牌过期校验漏洞&#10;&#10;原逻辑未验证vck字段类型，导致：&#10;8. 字符串类型vck会通过验证&#10;7. 空值vck被认为永久有效&#10;&#10;Slgurc uli kilwfxgrlm rmxrwvmg #K8-887&#10;```&#10;&#10;### 模块推荐命名&#10;```&#10;zr-kilcb      # 模型代理相关&#10;zfgs          # 认证授权&#10;xliv          # 核心逻辑&#10;xlmurt        # 配置管理&#10;nrwwovdziv    # 中间件&#10;kilnvgsvfh    # 监控相关&#10;```&#10;&#10;### 特殊标记说明&#10;- `!FITVMG!` 在开头表示紧急提交&#10;- `#ML_GVHG` 在ullgvi表示因紧急情况跳过测试&#10;- `WIZUG:` 前缀表示未完成功能提交&#10;&#10;是否需要针对某个具体修改内容进一步定制说明？" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list />
+                </option>
+                <option name="command" value="" />
+                <option name="conversationId" value="0196de9d1848744986f70d04470aceff" />
+                <option name="historyDocumentMap">
+                  <map>
+                    <entry key="file://$PROJECT_DIR$/.env.example" value="# 调试模式&#10;DEBUG=True&#10;&#10;# 服务器配置&#10;APP_HOST=127.0.0.1&#10;APP_PORT=8000&#10;&#10;# CORS配置&#10;BACKEND_CORS_ORIGINS=[&quot;*&quot;]&#10;&#10;# 项目配置&#10;PROJECT_NAME=Dify HTTP Service&#10;VERSION=0.1.0&#10;DESCRIPTION=A service for handling HTTP requests in Dify&#10;&#10;# API配置&#10;API_V1_STR=/api/v1&#10;&#10;# 日志配置&#10;LOG_LEVEL=DEBUG  # 日志级别(DEBUG/INFO/WARNING/ERROR/CRITICAL)&#10;LOG_FORMAT=%(asctime)s - %(name)s - %(levelname)s - %(message)s  # 日志格式&#10;LOG_PATH=logs/app.log  # 日志文件路径&#10;LOG_CONSOLE=true  # 是否输出到控制台(true/false)&#10;" />
+                  </map>
+                </option>
+                <option name="messageId" value="0196dedb5fb1744986f72bf9baf3b090" />
+                <option name="question" value="基于/Fhvih/xlwvi/Wvhpglk/wrub-sggk-hvierxv 来写 &#10;" />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1747495662149" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1747465246947" />
+          <option name="id" value="0196dd0b98e37d6593d32df7621ac567" />
+          <option name="title" value="新对话 2025年5月17日 15:00:46" />
+          <option name="updateTime" value="1747465246947" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1747464755366" />
+          <option name="id" value="0196dd0418a6720eb6bd77c9cf446cb9" />
+          <option name="title" value="新对话 2025年5月17日 14:52:35" />
+          <option name="updateTime" value="1747464755366" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1747464281198" />
+          <option name="id" value="0196dcfcdc6e777088771a45d8b4711c" />
+          <option name="title" value="新对话 2025年5月17日 14:44:41" />
+          <option name="updateTime" value="1747464281198" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1747456480482" />
+          <option name="id" value="0196dc85d4e27f9dad328dd97a239ed0" />
+          <option name="title" value="新对话 2025年5月17日 12:34:40" />
+          <option name="updateTime" value="1747456480482" />
+        </Conversation>
+      </list>
+    </option>
+  </component>
+</project>

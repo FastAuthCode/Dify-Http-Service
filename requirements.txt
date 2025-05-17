@@ -1,0 +1,25 @@
+akshare==1.16.72
+beautifulsoup4==4.12.3
+charset-normalizer==3.3.2
+fastapi==0.115.6
+html5lib==1.1
+httpx==0.25.0
+jsonpath==0.82.2
+loguru==0.7.2
+lxml~=5.3  # 兼容akshare和crawl4ai的最低共同版本
+matplotlib==3.7.2
+numpy>=1.26.0,<1.27.0  # 兼容scipy和crawl4ai的共同版本范围
+openpyxl==3.1.5
+pandas==2.0.3
+prettytable==3.15.1
+pyarrow==14.0.1
+pydantic>=2.10,<3.0.0  # 兼容fastapi和crawl4ai的共同版本范围
+pydantic-settings==2.0.3
+python-dotenv==1.0.0
+pytest==7.4.3
+requests==2.32.3
+scipy==1.10.1
+tqdm==4.67.1
+uvicorn==0.34.0
+cos-python-sdk-v5==1.9.33
+crawl4ai== 0.4.247

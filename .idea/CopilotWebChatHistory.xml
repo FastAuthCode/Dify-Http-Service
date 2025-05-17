@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotWebChatHistory">
+    <option name="currentConversation">
+      <WebConversation>
+        <option name="session">
+          <ChatSession>
+            <option name="messages">
+              <list>
+                <UIChatMessage>
+                  <option name="command" value="" />
+                  <option name="content" value="给出写个标准的代码提交 备注 " />
+                  <option name="cost" value="0" />
+                  <option name="createdAt" value="1747495550231" />
+                  <option name="localReferences">
+                    <list>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///Users/coder/Desktop/dify-http-service/.env.example&quot;}" />
+                      </LocalReferences>
+                    </list>
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="content" value="给出写个标准的代码提交 备注 " />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="给出写个标准的代码提交 备注 " />
+                            <option name="contentId" value="-170946812" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="column" value="14" />
+                          <option name="offset" value="15" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="role" value="user" />
+                  <option name="selectedRanges">
+                    <list />
+                  </option>
+                  <option name="uri" value="" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="actions">
+                    <list />
+                  </option>
+                  <option name="codebaseReferences">
+                    <list />
+                  </option>
+                  <option name="codebaseStatus" value="init" />
+                  <option name="command" value="" />
+                  <option name="content" value="这是一个标准的.env示例文件配置，包含了调试模式、服务器配置、CORS、项目信息、API和日志等常见配置项。以下是针对此修改的标准Git提交信息格式：&#10;&#10;```&#10;chore: 更新.env示例配置文件&#10;&#10;- 添加调试模式开关配置&#10;- 设置默认服务器主机和端口&#10;- 配置宽松的CORS策略(允许所有来源)&#10;-" />
+                  <option name="cost" value="-1" />
+                  <option name="error" value="" />
+                  <option name="id" value="0196ded9fd17744986f71845e694d422" />
+                  <option name="knowledgeReferences">
+                    <list />
+                  </option>
+                  <option name="localReferences">
+                    <list>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///Users/coder/Desktop/dify-http-service/.env.example&quot;}" />
+                      </LocalReferences>
+                    </list>
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="75" />
+                          <option value="-1" />
+                          <option value="2" />
+                          <option value="18" />
+                          <option value="-1" />
+                          <option value="11" />
+                          <option value="13" />
+                          <option value="20" />
+                          <option value="0" />
+                        </list>
+                      </option>
+                      <option name="content" value="这是一个标准的.env示例文件配置，包含了调试模式、服务器配置、CORS、项目信息、API和日志等常见配置项。以下是针对此修改的标准Git提交信息格式：&#10;&#10;```&#10;chore: 更新.env示例配置文件&#10;&#10;- 添加调试模式开关配置&#10;- 设置默认服务器主机和端口&#10;- 配置宽松的CORS策略(允许所有来源)&#10;-&#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="这是一个标准的.env示例文件配置，包含了调试模式、服务器配置、CORS、项目信息、API和日志等常见配置项。以下是针对此修改的标准Git提交信息格式：" />
+                            <option name="contentId" value="824419655" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="chore: 更新.env示例配置文件&#10;&#10;- 添加调试模式开关配置&#10;- 设置默认服务器主机和端口&#10;- 配置宽松的CORS策略(允许所有来源)&#10;-&#10;" />
+                            <option name="contentId" value="1506021237" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="9" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="155" />
+                          <option name="innerBlock" value="1" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="references">
+                    <list />
+                  </option>
+                  <option name="role" value="assistant" />
+                  <option name="topic" value="" />
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="command" value="" />
+                  <option name="content" value="当前代码写个提交代码说明 " />
+                  <option name="cost" value="0" />
+                  <option name="createdAt" value="1747495593270" />
+                  <option name="localReferences">
+                    <list />
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="content" value="当前代码写个提交代码说明 " />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="当前代码写个提交代码说明 " />
+                            <option name="contentId" value="-224083445" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="column" value="12" />
+                          <option name="offset" value="13" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="role" value="user" />
+                  <option name="selectedRanges">
+                    <list />
+                  </option>
+                  <option name="uri" value="" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="actions">
+                    <list />
+                  </option>
+                  <option name="codebaseReferences">
+                    <list />
+                  </option>
+                  <option name="codebaseStatus" value="init" />
+                  <option name="command" value="" />
+                  <option name="content" value="以下是一个通用的提交代码说明（Commit Message）模板，你可以根据实际修改内容调整：&#10;&#10;```&#10;&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;&#10;&#10;&lt;body&gt;&#10;&#10;&lt;footer&gt;&#10;```&#10;&#10;### 示例说明：&#10;```plaintext&#10;feat(user-auth): 添加JWT登录认证功能&#10;&#10;- 新增JWT生成与验证工具类&#10;- 实现登录接口返回token&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#12345&#10;BREAKING CHANGE: 需更新配置文件新增JWT_SECRET字段&#10;```&#10;&#10;### 各字段说明：&#10;1. **type（必需）**:&#10;   - feat: 新功能&#10;   - fix: bug修复&#10;   - docs: 文档更新&#10;   - style: 代码格式/样式调整&#10;   - refactor: 重构（非功能修改）&#10;   - test: 测试相关&#10;   - chore: 构建/工具变更&#10;&#10;2. **scope（可选）**:&#10;   说明影响范围，如模块、组件等&#10;&#10;3. **subject（必需）**:&#10;   简短描述（50字符内，英文首字母小写）&#10;&#10;4. **body（可选）**:&#10;   详细说明修改内容（换行72字符断行）&#10;&#10;5. **footer（可选）**:&#10;   - 关联issue（如`Closes #123`）&#10;   - 重大变更说明（BREAKING CHANGE）&#10;&#10;### 简洁版示例：&#10;```plaintext&#10;fix: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;1. 优先应用会员折扣&#10;2. 再计算满减活动&#10;&#10;Closes #789&#10;```&#10;&#10;根据你的实际修改内容选择适合的格式即可。" />
+                  <option name="cost" value="20871" />
+                  <option name="createdAt" value="1747495614160" />
+                  <option name="followup">
+                    <list />
+                  </option>
+                  <option name="id" value="0196dedaa536744986f7218047a7d782" />
+                  <option name="knowledgeReferences">
+                    <list />
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="46" />
+                          <option value="-1" />
+                          <option value="2" />
+                          <option value="25" />
+                          <option value="-1" />
+                          <option value="5" />
+                          <option value="-1" />
+                          <option value="7" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="8" />
+                          <option value="11" />
+                          <option value="27" />
+                          <option value="-1" />
+                          <option value="14" />
+                          <option value="14" />
+                          <option value="12" />
+                          <option value="-1" />
+                          <option value="10" />
+                          <option value="37" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="9" />
+                          <option value="15" />
+                          <option value="13" />
+                          <option value="14" />
+                          <option value="14" />
+                          <option value="20" />
+                          <option value="23" />
+                          <option value="14" />
+                          <option value="18" />
+                          <option value="-1" />
+                          <option value="16" />
+                          <option value="16" />
+                          <option value="-1" />
+                          <option value="18" />
+                          <option value="21" />
+                          <option value="-1" />
+                          <option value="15" />
+                          <option value="20" />
+                          <option value="-1" />
+                          <option value="17" />
+                          <option value="27" />
+                          <option value="27" />
+                          <option value="-1" />
+                          <option value="9" />
+                          <option value="11" />
+                          <option value="15" />
+                          <option value="-1" />
+                          <option value="17" />
+                          <option value="10" />
+                          <option value="9" />
+                          <option value="-1" />
+                          <option value="10" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="19" />
+                        </list>
+                      </option>
+                      <option name="content" value="以下是一个通用的提交代码说明（Commit Message）模板，你可以根据实际修改内容调整：&#10;&#10;```&#10;&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;&#10;&#10;&lt;body&gt;&#10;&#10;&lt;footer&gt;&#10;```&#10;&#10;### 示例说明：&#10;```plaintext&#10;feat(user-auth): 添加JWT登录认证功能&#10;&#10;- 新增JWT生成与验证工具类&#10;- 实现登录接口返回token&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#12345&#10;BREAKING CHANGE: 需更新配置文件新增JWT_SECRET字段&#10;```&#10;&#10;### 各字段说明：&#10;1. **type（必需）**:&#10;   - feat: 新功能&#10;   - fix: bug修复&#10;   - docs: 文档更新&#10;   - style: 代码格式/样式调整&#10;   - refactor: 重构（非功能修改）&#10;   - test: 测试相关&#10;   - chore: 构建/工具变更&#10;&#10;2. **scope（可选）**:&#10;   说明影响范围，如模块、组件等&#10;&#10;3. **subject（必需）**:&#10;   简短描述（50字符内，英文首字母小写）&#10;&#10;4. **body（可选）**:&#10;   详细说明修改内容（换行72字符断行）&#10;&#10;5. **footer（可选）**:&#10;   - 关联issue（如`Closes #123`）&#10;   - 重大变更说明（BREAKING CHANGE）&#10;&#10;### 简洁版示例：&#10;```plaintext&#10;fix: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;1. 优先应用会员折扣&#10;2. 再计算满减活动&#10;&#10;Closes #789&#10;```&#10;&#10;根据你的实际修改内容选择适合的格式即可。&#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="以下是一个通用的提交代码说明（Commit Message）模板，你可以根据实际修改内容调整：" />
+                            <option name="contentId" value="-1067018700" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;&#10;&#10;&lt;body&gt;&#10;&#10;&lt;footer&gt;&#10;" />
+                            <option name="contentId" value="1788930110" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 示例说明：" />
+                            <option name="contentId" value="153852527" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="feat(user-auth): 添加JWT登录认证功能&#10;&#10;- 新增JWT生成与验证工具类&#10;- 实现登录接口返回token&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#12345&#10;BREAKING CHANGE: 需更新配置文件新增JWT_SECRET字段&#10;" />
+                            <option name="contentId" value="-927132457" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 各字段说明：" />
+                            <option name="contentId" value="887391326" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="1. **type（必需）**:" />
+                            <option name="contentId" value="-412717001" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="feat: 新功能" />
+                            <option name="contentId" value="-451828458" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="fix: bug修复" />
+                            <option name="contentId" value="256629560" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="docs: 文档更新" />
+                            <option name="contentId" value="978640921" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="style: 代码格式/样式调整" />
+                            <option name="contentId" value="1509770704" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="refactor: 重构（非功能修改）" />
+                            <option name="contentId" value="-1409103701" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="test: 测试相关" />
+                            <option name="contentId" value="1799832093" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="chore: 构建/工具变更" />
+                            <option name="contentId" value="-5031260" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="2. **scope（可选）**:" />
+                            <option name="contentId" value="461407267" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="   说明影响范围，如模块、组件等" />
+                            <option name="contentId" value="-526466935" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="3. **subject（必需）**:" />
+                            <option name="contentId" value="663957613" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="   简短描述（50字符内，英文首字母小写）" />
+                            <option name="contentId" value="-1112263852" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="4. **body（可选）**:" />
+                            <option name="contentId" value="518634763" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="   详细说明修改内容（换行72字符断行）" />
+                            <option name="contentId" value="1439618151" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="5. **footer（可选）**:" />
+                            <option name="contentId" value="658107025" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="关联issue（如`Closes #123`）" />
+                            <option name="contentId" value="1032846863" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="重大变更说明（BREAKING CHANGE）" />
+                            <option name="contentId" value="295727636" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 简洁版示例：" />
+                            <option name="contentId" value="-1860379262" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="fix: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;1. 优先应用会员折扣&#10;2. 再计算满减活动&#10;&#10;Closes #789&#10;" />
+                            <option name="contentId" value="502389311" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="根据你的实际修改内容选择适合的格式即可。" />
+                            <option name="contentId" value="1064775156" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="undetermined" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="57" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="740" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="references">
+                    <list />
+                  </option>
+                  <option name="role" value="assistant" />
+                  <option name="topic" value="" />
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="command" value="" />
+                  <option name="content" value="基于/Users/coder/Desktop/dify-http-service 来写 &#10;" />
+                  <option name="cost" value="0" />
+                  <option name="createdAt" value="1747495641009" />
+                  <option name="localReferences">
+                    <list />
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="43" />
+                        </list>
+                      </option>
+                      <option name="content" value="基于/Users/coder/Desktop/dify-http-service 来写 &#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="基于/Users/coder/Desktop/dify-http-service 来写 " />
+                            <option name="contentId" value="607128018" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="undetermined" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="1" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="45" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="role" value="user" />
+                  <option name="selectedRanges">
+                    <list />
+                  </option>
+                  <option name="uri" value="" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="actions">
+                    <list />
+                  </option>
+                  <option name="codebaseReferences">
+                    <list />
+                  </option>
+                  <option name="codebaseStatus" value="init" />
+                  <option name="command" value="" />
+                  <option name="content" value="以下是为 `dify-http-service` 项目定制的提交代码说明模板，结合常见微服务开发场景：&#10;&#10;---&#10;### 标准提交格式&#10;```plaintext&#10;&lt;type&gt;(&lt;module&gt;): &lt;concise description&gt;&#10;&#10;[Optional body]&#10;&#10;[Optional footer]&#10;```&#10;&#10;### 实际场景示例&#10;1. **新增API功能**  &#10;```plaintext&#10;feat(ai-proxy): 增加Stable Diffusion模型代理接口&#10;&#10;- 新增/v1/sd/generate路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(100req/min)&#10;&#10;Related to requirement #SD-42&#10;```&#10;&#10;2. **配置文件变更**  &#10;```plaintext&#10;chore(config): 更新Redis连接池配置&#10;&#10;- 最大连接数从50调整为200&#10;- 新增连接超时参数(5000ms)&#10;- 移除废弃的sentinel配置&#10;&#10;BREAKING CHANGE: 需要同步更新生产环境redis.conf&#10;```&#10;&#10;3. **紧急修复**  &#10;```plaintext&#10;fix(auth): 修复JWT令牌过期校验漏洞&#10;&#10;原逻辑未验证exp字段类型，导致：&#10;1. 字符串类型exp会通过验证&#10;2. 空值exp被认为永久有效&#10;&#10;Hotfix for production incident #P1-112&#10;```&#10;&#10;### 模块推荐命名&#10;```&#10;ai-proxy      # 模型代理相关&#10;auth          # 认证授权&#10;core          # 核心逻辑&#10;config        # 配置管理&#10;middleware    # 中间件&#10;prometheus    # 监控相关&#10;```&#10;&#10;### 特殊标记说明&#10;- `!URGENT!` 在开头表示紧急提交&#10;- `#NO_TEST` 在footer表示因紧急情况跳过测试&#10;- `DRAFT:` 前缀表示未完成功能提交&#10;&#10;是否需要针对某个具体修改内容进一步定制说明？" />
+                  <option name="cost" value="22988" />
+                  <option name="createdAt" value="1747495664007" />
+                  <option name="followup">
+                    <list />
+                  </option>
+                  <option name="id" value="0196dedb5fb1744986f72bf9baf3b090" />
+                  <option name="knowledgeReferences">
+                    <list />
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="50" />
+                          <option value="-1" />
+                          <option value="2" />
+                          <option value="9" />
+                          <option value="11" />
+                          <option value="38" />
+                          <option value="-1" />
+                          <option value="14" />
+                          <option value="-1" />
+                          <option value="16" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="9" />
+                          <option value="15" />
+                          <option value="11" />
+                          <option value="39" />
+                          <option value="-1" />
+                          <option value="20" />
+                          <option value="12" />
+                          <option value="19" />
+                          <option value="-1" />
+                          <option value="28" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="14" />
+                          <option value="11" />
+                          <option value="26" />
+                          <option value="-1" />
+                          <option value="15" />
+                          <option value="17" />
+                          <option value="16" />
+                          <option value="-1" />
+                          <option value="36" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="12" />
+                          <option value="11" />
+                          <option value="23" />
+                          <option value="-1" />
+                          <option value="16" />
+                          <option value="15" />
+                          <option value="14" />
+                          <option value="-1" />
+                          <option value="37" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="9" />
+                          <option value="2" />
+                          <option value="21" />
+                          <option value="19" />
+                          <option value="19" />
+                          <option value="19" />
+                          <option value="18" />
+                          <option value="19" />
+                          <option value="2" />
+                          <option value="-1" />
+                          <option value="9" />
+                          <option value="21" />
+                          <option value="30" />
+                          <option value="21" />
+                          <option value="-1" />
+                          <option value="21" />
+                        </list>
+                      </option>
+                      <option name="content" value="以下是为 `dify-http-service` 项目定制的提交代码说明模板，结合常见微服务开发场景：&#10;&#10;---&#10;### 标准提交格式&#10;```plaintext&#10;&lt;type&gt;(&lt;module&gt;): &lt;concise description&gt;&#10;&#10;[Optional body]&#10;&#10;[Optional footer]&#10;```&#10;&#10;### 实际场景示例&#10;1. **新增API功能**  &#10;```plaintext&#10;feat(ai-proxy): 增加Stable Diffusion模型代理接口&#10;&#10;- 新增/v1/sd/generate路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(100req/min)&#10;&#10;Related to requirement #SD-42&#10;```&#10;&#10;2. **配置文件变更**  &#10;```plaintext&#10;chore(config): 更新Redis连接池配置&#10;&#10;- 最大连接数从50调整为200&#10;- 新增连接超时参数(5000ms)&#10;- 移除废弃的sentinel配置&#10;&#10;BREAKING CHANGE: 需要同步更新生产环境redis.conf&#10;```&#10;&#10;3. **紧急修复**  &#10;```plaintext&#10;fix(auth): 修复JWT令牌过期校验漏洞&#10;&#10;原逻辑未验证exp字段类型，导致：&#10;1. 字符串类型exp会通过验证&#10;2. 空值exp被认为永久有效&#10;&#10;Hotfix for production incident #P1-112&#10;```&#10;&#10;### 模块推荐命名&#10;```&#10;ai-proxy      # 模型代理相关&#10;auth          # 认证授权&#10;core          # 核心逻辑&#10;config        # 配置管理&#10;middleware    # 中间件&#10;prometheus    # 监控相关&#10;```&#10;&#10;### 特殊标记说明&#10;- `!URGENT!` 在开头表示紧急提交&#10;- `#NO_TEST` 在footer表示因紧急情况跳过测试&#10;- `DRAFT:` 前缀表示未完成功能提交&#10;&#10;是否需要针对某个具体修改内容进一步定制说明？&#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="以下是为 `dify-http-service` 项目定制的提交代码说明模板，结合常见微服务开发场景：" />
+                            <option name="contentId" value="1496893459" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="--" />
+                            <option name="contentId" value="1440" />
+                            <option name="indentSize" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="hr" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 标准提交格式" />
+                            <option name="contentId" value="-811374234" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="&lt;type&gt;(&lt;module&gt;): &lt;concise description&gt;&#10;&#10;[Optional body]&#10;&#10;[Optional footer]&#10;" />
+                            <option name="contentId" value="-1413720840" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 实际场景示例" />
+                            <option name="contentId" value="1647162829" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="1. **新增API功能**  " />
+                            <option name="contentId" value="-695631929" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="feat(ai-proxy): 增加Stable Diffusion模型代理接口&#10;&#10;- 新增/v1/sd/generate路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(100req/min)&#10;&#10;Related to requirement #SD-42&#10;" />
+                            <option name="contentId" value="-1373568637" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="2. **配置文件变更**  " />
+                            <option name="contentId" value="-1227734064" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="chore(config): 更新Redis连接池配置&#10;&#10;- 最大连接数从50调整为200&#10;- 新增连接超时参数(5000ms)&#10;- 移除废弃的sentinel配置&#10;&#10;BREAKING CHANGE: 需要同步更新生产环境redis.conf&#10;" />
+                            <option name="contentId" value="405308926" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="3. **紧急修复**  " />
+                            <option name="contentId" value="-141950430" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="fix(auth): 修复JWT令牌过期校验漏洞&#10;&#10;原逻辑未验证exp字段类型，导致：&#10;1. 字符串类型exp会通过验证&#10;2. 空值exp被认为永久有效&#10;&#10;Hotfix for production incident #P1-112&#10;" />
+                            <option name="contentId" value="-1794737893" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="plaintext" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 模块推荐命名" />
+                            <option name="contentId" value="-1261135794" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="ai-proxy      # 模型代理相关&#10;auth          # 认证授权&#10;core          # 核心逻辑&#10;config        # 配置管理&#10;middleware    # 中间件&#10;prometheus    # 监控相关&#10;" />
+                            <option name="contentId" value="149435295" />
+                            <option name="expectEnding" value="```" />
+                            <option name="indentSize" value="0" />
+                            <option name="language" value="" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 特殊标记说明" />
+                            <option name="contentId" value="277589684" />
+                            <option name="level" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="heading" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" `!URGENT!` 在开头表示紧急提交" />
+                            <option name="contentId" value="-1220387519" />
+                            <option name="indentSize" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" `#NO_TEST` 在footer表示因紧急情况跳过测试" />
+                            <option name="contentId" value="328407812" />
+                            <option name="indentSize" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" `DRAFT:` 前缀表示未完成功能提交" />
+                            <option name="contentId" value="1550997506" />
+                            <option name="indentSize" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="是否需要针对某个具体修改内容进一步定制说明？" />
+                            <option name="contentId" value="-1524628825" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="undetermined" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="62" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="903" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="references">
+                    <list />
+                  </option>
+                  <option name="role" value="assistant" />
+                  <option name="topic" value="" />
+                </UIChatMessage>
+              </list>
+            </option>
+            <option name="messagesV3">
+              <list>
+                <ChatMessageV3>
+                  <option name="role" value="user" />
+                  <option name="content" value="当前代码写个提交代码说明 " />
+                  <option name="extra">
+                    <ChatMessageExtra>
+                      <option name="agent" value="default" />
+                      <option name="cmd" value="default" />
+                    </ChatMessageExtra>
+                  </option>
+                </ChatMessageV3>
+                <ChatMessageV3>
+                  <option name="role" value="assistant" />
+                  <option name="content" value="以下是一个通用的提交代码说明（Commit Message）模板，你可以根据实际修改内容调整：&#10;&#10;```&#10;&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;&#10;&#10;&lt;body&gt;&#10;&#10;&lt;footer&gt;&#10;```&#10;&#10;### 示例说明：&#10;```plaintext&#10;feat(user-auth): 添加JWT登录认证功能&#10;&#10;- 新增JWT生成与验证工具类&#10;- 实现登录接口返回token&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#12345&#10;BREAKING CHANGE: 需更新配置文件新增JWT_SECRET字段&#10;```&#10;&#10;### 各字段说明：&#10;1. **type（必需）**:&#10;   - feat: 新功能&#10;   - fix: bug修复&#10;   - docs: 文档更新&#10;   - style: 代码格式/样式调整&#10;   - refactor: 重构（非功能修改）&#10;   - test: 测试相关&#10;   - chore: 构建/工具变更&#10;&#10;2. **scope（可选）**:&#10;   说明影响范围，如模块、组件等&#10;&#10;3. **subject（必需）**:&#10;   简短描述（50字符内，英文首字母小写）&#10;&#10;4. **body（可选）**:&#10;   详细说明修改内容（换行72字符断行）&#10;&#10;5. **footer（可选）**:&#10;   - 关联issue（如`Closes #123`）&#10;   - 重大变更说明（BREAKING CHANGE）&#10;&#10;### 简洁版示例：&#10;```plaintext&#10;fix: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;1. 优先应用会员折扣&#10;2. 再计算满减活动&#10;&#10;Closes #789&#10;```&#10;&#10;根据你的实际修改内容选择适合的格式即可。" />
+                  <option name="extra">
+                    <ChatMessageExtra />
+                  </option>
+                </ChatMessageV3>
+                <ChatMessageV3>
+                  <option name="role" value="user" />
+                  <option name="content" value="基于/Users/coder/Desktop/dify-http-service 来写 &#10;" />
+                  <option name="extra">
+                    <ChatMessageExtra>
+                      <option name="agent" value="default" />
+                      <option name="cmd" value="default" />
+                    </ChatMessageExtra>
+                  </option>
+                </ChatMessageV3>
+                <ChatMessageV3>
+                  <option name="role" value="assistant" />
+                  <option name="content" value="以下是为 `dify-http-service` 项目定制的提交代码说明模板，结合常见微服务开发场景：&#10;&#10;---&#10;### 标准提交格式&#10;```plaintext&#10;&lt;type&gt;(&lt;module&gt;): &lt;concise description&gt;&#10;&#10;[Optional body]&#10;&#10;[Optional footer]&#10;```&#10;&#10;### 实际场景示例&#10;1. **新增API功能**  &#10;```plaintext&#10;feat(ai-proxy): 增加Stable Diffusion模型代理接口&#10;&#10;- 新增/v1/sd/generate路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(100req/min)&#10;&#10;Related to requirement #SD-42&#10;```&#10;&#10;2. **配置文件变更**  &#10;```plaintext&#10;chore(config): 更新Redis连接池配置&#10;&#10;- 最大连接数从50调整为200&#10;- 新增连接超时参数(5000ms)&#10;- 移除废弃的sentinel配置&#10;&#10;BREAKING CHANGE: 需要同步更新生产环境redis.conf&#10;```&#10;&#10;3. **紧急修复**  &#10;```plaintext&#10;fix(auth): 修复JWT令牌过期校验漏洞&#10;&#10;原逻辑未验证exp字段类型，导致：&#10;1. 字符串类型exp会通过验证&#10;2. 空值exp被认为永久有效&#10;&#10;Hotfix for production incident #P1-112&#10;```&#10;&#10;### 模块推荐命名&#10;```&#10;ai-proxy      # 模型代理相关&#10;auth          # 认证授权&#10;core          # 核心逻辑&#10;config        # 配置管理&#10;middleware    # 中间件&#10;prometheus    # 监控相关&#10;```&#10;&#10;### 特殊标记说明&#10;- `!URGENT!` 在开头表示紧急提交&#10;- `#NO_TEST` 在footer表示因紧急情况跳过测试&#10;- `DRAFT:` 前缀表示未完成功能提交&#10;&#10;是否需要针对某个具体修改内容进一步定制说明？" />
+                  <option name="extra">
+                    <ChatMessageExtra />
+                  </option>
+                </ChatMessageV3>
+              </list>
+            </option>
+            <option name="sessionId" value="0196de9d1848744986f70d04470aceff" />
+          </ChatSession>
+        </option>
+        <option name="conversationId" value="0196de9d1848744986f70d04470aceff" />
+        <option name="conversation">
+          <Conversation>
+            <option name="createTime" value="1747491559096" />
+            <option name="id" value="0196de9d1848744986f70d04470aceff" />
+            <option name="title" value="给出写个标准的代码提交 备注 " />
+            <option name="turns">
+              <list>
+                <Turn>
+                  <option name="agent" value="" />
+                  <option name="answer" value="以下是一个通用的提交代码说明（Xlnnrg Nvhhztv）模板，你可以根据实际修改内容调整：&#10;&#10;```&#10;&lt;gbkv&gt;(&lt;hxlkv&gt;): &lt;hfyqvxg&gt;&#10;&#10;&lt;ylwb&gt;&#10;&#10;&lt;ullgvi&gt;&#10;```&#10;&#10;### 示例说明：&#10;```kozrmgvcg&#10;uvzg(fhvi-zfgs): 添加QDG登录认证功能&#10;&#10;- 新增QDG生成与验证工具类&#10;- 实现登录接口返回glpvm&#10;- 添加路由权限拦截中间件&#10;&#10;关联需求：#87654&#10;YIVZPRMT XSZMTV: 需更新配置文件新增QDG_HVXIVG字段&#10;```&#10;&#10;### 各字段说明：&#10;8. **gbkv（必需）**:&#10;   - uvzg: 新功能&#10;   - urc: yft修复&#10;   - wlxh: 文档更新&#10;   - hgbov: 代码格式/样式调整&#10;   - ivuzxgli: 重构（非功能修改）&#10;   - gvhg: 测试相关&#10;   - xsliv: 构建/工具变更&#10;&#10;7. **hxlkv（可选）**:&#10;   说明影响范围，如模块、组件等&#10;&#10;6. **hfyqvxg（必需）**:&#10;   简短描述（49字符内，英文首字母小写）&#10;&#10;5. **ylwb（可选）**:&#10;   详细说明修改内容（换行27字符断行）&#10;&#10;4. **ullgvi（可选）**:&#10;   - 关联rhhfv（如`Xolhvh #876`）&#10;   - 重大变更说明（YIVZPRMT XSZMTV）&#10;&#10;### 简洁版示例：&#10;```kozrmgvcg&#10;urc: 修复订单页金额计算错误&#10;&#10;原公式未考虑折扣叠加场景，现修正为：&#10;8. 优先应用会员折扣&#10;7. 再计算满减活动&#10;&#10;Xolhvh #210&#10;```&#10;&#10;根据你的实际修改内容选择适合的格式即可。" />
+                  <option name="chatResource" value="user" />
+                  <option name="codeReferences">
+                    <list />
+                  </option>
+                  <option name="command" value="" />
+                  <option name="conversationId" value="0196de9d1848744986f70d04470aceff" />
+                  <option name="historyDocumentMap">
+                    <map>
+                      <entry key="file://$PROJECT_DIR$/.env.example" value="# 调试模式&#10;DEBUG=True&#10;&#10;# 服务器配置&#10;APP_HOST=127.0.0.1&#10;APP_PORT=8000&#10;&#10;# CORS配置&#10;BACKEND_CORS_ORIGINS=[&quot;*&quot;]&#10;&#10;# 项目配置&#10;PROJECT_NAME=Dify HTTP Service&#10;VERSION=0.1.0&#10;DESCRIPTION=A service for handling HTTP requests in Dify&#10;&#10;# API配置&#10;API_V1_STR=/api/v1&#10;&#10;# 日志配置&#10;LOG_LEVEL=DEBUG  # 日志级别(DEBUG/INFO/WARNING/ERROR/CRITICAL)&#10;LOG_FORMAT=%(asctime)s - %(name)s - %(levelname)s - %(message)s  # 日志格式&#10;LOG_PATH=logs/app.log  # 日志文件路径&#10;LOG_CONSOLE=true  # 是否输出到控制台(true/false)&#10;" />
+                    </map>
+                  </option>
+                  <option name="messageId" value="0196dedaa536744986f7218047a7d782" />
+                  <option name="question" value="当前代码写个提交代码说明 " />
+                  <option name="rating" value="UNRATED" />
+                  <option name="referenceBeans">
+                    <list />
+                  </option>
+                  <option name="status" value="SUCCESS" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </Turn>
+                <Turn>
+                  <option name="agent" value="" />
+                  <option name="answer" value="以下是为 `wrub-sggk-hvierxv` 项目定制的提交代码说明模板，结合常见微服务开发场景：&#10;&#10;---&#10;### 标准提交格式&#10;```kozrmgvcg&#10;&lt;gbkv&gt;(&lt;nlwfov&gt;): &lt;xlmxrhv wvhxirkgrlm&gt;&#10;&#10;[Lkgrlmzo ylwb]&#10;&#10;[Lkgrlmzo ullgvi]&#10;```&#10;&#10;### 实际场景示例&#10;8. **新增ZKR功能**  &#10;```kozrmgvcg&#10;uvzg(zr-kilcb): 增加Hgzyov Wruufhrlm模型代理接口&#10;&#10;- 新增/e8/hw/tvmvizgv路由&#10;- 实现模型参数转换中间件&#10;- 添加速率限制(899ivj/nrm)&#10;&#10;Ivozgvw gl ivjfrivnvmg #HW-57&#10;```&#10;&#10;7. **配置文件变更**  &#10;```kozrmgvcg&#10;xsliv(xlmurt): 更新Ivwrh连接池配置&#10;&#10;- 最大连接数从49调整为799&#10;- 新增连接超时参数(4999nh)&#10;- 移除废弃的hvmgrmvo配置&#10;&#10;YIVZPRMT XSZMTV: 需要同步更新生产环境ivwrh.xlmu&#10;```&#10;&#10;6. **紧急修复**  &#10;```kozrmgvcg&#10;urc(zfgs): 修复QDG令牌过期校验漏洞&#10;&#10;原逻辑未验证vck字段类型，导致：&#10;8. 字符串类型vck会通过验证&#10;7. 空值vck被认为永久有效&#10;&#10;Slgurc uli kilwfxgrlm rmxrwvmg #K8-887&#10;```&#10;&#10;### 模块推荐命名&#10;```&#10;zr-kilcb      # 模型代理相关&#10;zfgs          # 认证授权&#10;xliv          # 核心逻辑&#10;xlmurt        # 配置管理&#10;nrwwovdziv    # 中间件&#10;kilnvgsvfh    # 监控相关&#10;```&#10;&#10;### 特殊标记说明&#10;- `!FITVMG!` 在开头表示紧急提交&#10;- `#ML_GVHG` 在ullgvi表示因紧急情况跳过测试&#10;- `WIZUG:` 前缀表示未完成功能提交&#10;&#10;是否需要针对某个具体修改内容进一步定制说明？" />
+                  <option name="chatResource" value="user" />
+                  <option name="codeReferences">
+                    <list />
+                  </option>
+                  <option name="command" value="" />
+                  <option name="conversationId" value="0196de9d1848744986f70d04470aceff" />
+                  <option name="historyDocumentMap">
+                    <map>
+                      <entry key="file://$PROJECT_DIR$/.env.example" value="# 调试模式&#10;DEBUG=True&#10;&#10;# 服务器配置&#10;APP_HOST=127.0.0.1&#10;APP_PORT=8000&#10;&#10;# CORS配置&#10;BACKEND_CORS_ORIGINS=[&quot;*&quot;]&#10;&#10;# 项目配置&#10;PROJECT_NAME=Dify HTTP Service&#10;VERSION=0.1.0&#10;DESCRIPTION=A service for handling HTTP requests in Dify&#10;&#10;# API配置&#10;API_V1_STR=/api/v1&#10;&#10;# 日志配置&#10;LOG_LEVEL=DEBUG  # 日志级别(DEBUG/INFO/WARNING/ERROR/CRITICAL)&#10;LOG_FORMAT=%(asctime)s - %(name)s - %(levelname)s - %(message)s  # 日志格式&#10;LOG_PATH=logs/app.log  # 日志文件路径&#10;LOG_CONSOLE=true  # 是否输出到控制台(true/false)&#10;" />
+                    </map>
+                  </option>
+                  <option name="messageId" value="0196dedb5fb1744986f72bf9baf3b090" />
+                  <option name="question" value="基于/Fhvih/xlwvi/Wvhpglk/wrub-sggk-hvierxv 来写 &#10;" />
+                  <option name="rating" value="UNRATED" />
+                  <option name="referenceBeans">
+                    <list />
+                  </option>
+                  <option name="status" value="SUCCESS" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </Turn>
+              </list>
+            </option>
+            <option name="updateTime" value="1747495662149" />
+          </Conversation>
+        </option>
+      </WebConversation>
+    </option>
+  </component>
+</project>
