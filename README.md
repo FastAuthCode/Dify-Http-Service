@@ -43,6 +43,8 @@ uvicorn main:app --reload
 cp .env.example .env
 ```
 
+> **注意**：详细的部署说明（包括Docker部署方式）请参考项目根目录下的[部署文档](DEPLOY.md)文件。
+
 ## API文档
 
 ### 新闻爬取API
