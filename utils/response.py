@@ -21,12 +21,12 @@ class CustomResponse:
             message: str = "Success",
             status_code: int = 200
     ) -> JSONResponse:
-        converted_data = CustomResponse._convert_data(data) if data is not None else None
+        data = CustomResponse._convert_data(data) if data is not None else None
         return JSONResponse(
             content={
                 "success": True,
                 "message": message,
-                "data": converted_data
+                "data": data
             },
             status_code=status_code
         )
@@ -35,14 +35,14 @@ class CustomResponse:
     def error(
             message: str = "Error",
             status_code: int = 500,
-            error_details: Optional[Any] = None
+            data: Optional[Any] = None
     ) -> JSONResponse:
-        converted_error = CustomResponse._convert_data(error_details) if error_details is not None else None
+        data = CustomResponse._convert_data(data) if data is not None else None
         return JSONResponse(
             content={
                 "success": False,
                 "message": message,
-                "error": converted_error
+                "data": data
             },
             status_code=status_code
         )

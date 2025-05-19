@@ -16,12 +16,6 @@ class NewsArticle(BaseModel):
     content: str
 
 
-class NewsResult(BaseModel):
-    """新闻爬取结果模型"""
-    news: List[NewsArticle]
-    newsdetail: str
-
-
 class NewsCrawler:
     """新闻爬取服务"""
 
@@ -35,8 +29,7 @@ class NewsCrawler:
         """
         logger.info(f"开始获取新闻列表: {NewsCrawler.BASE_URL}")
         try:
-            proxies = {"http": proxy, "https": proxy} if proxy else None
-            response = requests.get(NewsCrawler.BASE_URL, timeout=10, proxies=proxies)
+            response = requests.get(NewsCrawler.BASE_URL, timeout=10)
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -59,7 +52,7 @@ class NewsCrawler:
             raise
 
     @staticmethod
-    async def fetch_news(limit: int = 5, proxy: Optional[str] = None) -> NewsResult:
+    async def fetch_news(limit: int = 5) -> list[NewsArticle]:
         """获取新闻数据"""
         logger.info(f"开始获取新闻，限制数量: {limit}")
 
@@ -67,7 +60,6 @@ class NewsCrawler:
             news_urls = NewsCrawler.get_news_urls()
             news_urls = news_urls[:limit]
             news_data = []
-            news_detail = ""
 
             for index, url in enumerate(news_urls, start=1):
                 article_data = await NewsCrawler.extract_article(url)
@@ -78,12 +70,8 @@ class NewsCrawler:
                         content=article_data.get("content", "无法提取内容")
                     )
                     news_data.append(article)
-                    news_detail += f"今天新闻第{index}条内容：{article.content}；\n"
 
-            return NewsResult(
-                news=news_data,
-                newsdetail=news_detail
-            )
+            return news_data
 
         except Exception as e:
             logger.error(f"获取新闻数据失败: {str(e)}", exc_info=True)

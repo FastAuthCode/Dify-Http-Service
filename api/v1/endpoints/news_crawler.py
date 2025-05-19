@@ -15,9 +15,9 @@ logger = logging.getLogger(__name__)
 @router.get("/news")
 async def get_news(
         limit: int = Query(
-            default=5, 
+            default=5,
             description="返回的新闻数量，范围1-20",
-            ge=1, 
+            ge=1,
             le=20,
             example=5
         )
@@ -65,4 +65,4 @@ async def get_news(
         return CustomResponse.success(data=result)
     except Exception as e:
         logger.error(f"获取新闻失败: {str(e)}", exc_info=True)
-        raise CustomResponse.error(message=str(e))
+        return CustomResponse.error(data=str(e))
